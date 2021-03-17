@@ -1,0 +1,196 @@
+.container{width: 1360px;
+        margin-left: 68px;
+        padding-bottom: 112px;}
+
+.header{width: 1360px;
+        height: 74px;
+        display: flex;}
+
+.content{width: 1360px;}
+
+@keyframes shadow {
+from {box-shadow: 0 0 2px black;}
+50% {box-shadow: 0 0 20px black;}
+to {box-shadow: 0 0 2px black;}}
+
+.logo{  height: 21px;
+        width: 410px;
+        margin-left: 68px;
+        margin-top: 28px;
+        border-radius: 0px;}
+
+.navigation{justify-content: center;
+        display: flex;
+        margin-top: 28px;
+        margin-left: 60px; }
+
+ .nav1{margin-left: 35px;
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: 0.01em; 
+        color: #979797;}
+
+.nav1 a{font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: 0.01em;
+        color: #979797;
+        text-decoration: none;}
+        
+
+.text{  width: 912px;
+        height: 128px;
+        margin-left: 68px;
+        margin-top:50px;          
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 64px;    
+        color: #333F48;}
+
+.menu{display: flex;
+        flex-wrap:wrap;
+        margin-top: 50px;
+        margin-left: 68px;}
+
+.background{margin-right: 40px;
+        margin-bottom:64px; 
+        Width:390px;
+        Height:260px;
+        background-color: black;
+        border-radius: 15px;
+        animation: shadow ease 2s;}
+
+img{ border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;}
+
+.topic{margin-right: 40px;
+        margin-bottom:64px; }
+
+.lesson{margin-right: 40px;
+        margin-bottom:64px;}
+
+
+.footer{display: flex;
+        background-color: rgb(236, 232, 232);}
+
+.left1{margin-left:30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 150px;}
+
+.left2{margin-left: 186px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 150px;}
+
+.text1 a{color: gray;}
+
+.text1{ padding-bottom: 15px;}
+
+.theme{width: 350px;
+        margin-top: -20px;}
+
+.theme h3{margin-top: 15px;
+	font-family: SB Sans Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #333F48;}
+
+.theme p { margin-top: -16px;
+         font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #21A038;}
+
+footer {width: 100%;
+        background: #F3F4F5;}
+        
+.block1 {height: 240px;	
+        display:flex;}
+        
+.left nav{display:flex;    
+        flex-direction:column;
+        flex-wrap:wrap;
+        max-height: 240px;
+        margin-top: 30px;
+        margin-left: 30px;}
+        
+.right nav{display:flex;    
+        flex-direction:column;
+        flex-wrap:wrap;
+        max-height: 240px;
+        margin-top: 30px;
+        margin-left: 238px;}
+        
+.block1_a a {margin-bottom: 15px;	
+        text-decoration: none;
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333F48;
+        opacity: 0.5;}
+        
+.block2 {width: 391px;
+        height: 208px;	
+        margin-left: 1000px;}
+
+.block2 div {margin-bottom: 24px;
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        text-decoration: none;
+        letter-spacing: 0.01em; 
+        color: #979797;}
+
+.block2 div h3{margin-bottom: 5px;
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #333F48;
+        opacity: 0.5;}
+        
+.block3 {display: flex;
+        width: 100%;
+        height: 50px;
+        margin-top: -5px;}
+        
+.block3_a {margin-top: 15px;
+        margin-left: 30px;}
+        
+.block3_a a {padding-right: 16px;
+        text-decoration: none;
+        font-family: SB Sans Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333F48;
+        opacity: 0.5;}
+        
+.cards {margin-top: 25px;	
+        margin-left: 830px;}
